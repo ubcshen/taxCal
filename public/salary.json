@@ -1,0 +1,56 @@
+{
+  "CountryA": {
+    "HealthInsurance": 15.0,
+    "EmployerSocialSecurity": 4.0,
+    "EmployerTaxBrackets": [
+      {
+        "lvl": 20000,
+        "lvlRate": 15.0
+      },
+      {
+        "lvl": -1,
+        "lvlRate": 27.0
+      }
+    ],
+    "SocialSecurity": 20.0,
+    "TaxBrackets": [
+      {
+        "lvl": 35000,
+        "lvlRate": 20.0
+      },
+      { "lvl": -1, "lvlRate": 30.0 }
+    ]
+  },
+
+  "CountryB": {
+    "HealthInsurance": 15.5,
+    "EmployerSocialSecurity": 3.2,
+    "EmployerTaxBrackets": [
+      {
+        "lvl": 20000,
+        "lvlRate": 5.0
+      },
+      {
+        "lvl": 42000,
+        "lvlRate": 8.0
+      },
+      {
+        "lvl": 70000,
+        "lvlRate": 15.0
+      },
+      {
+        "lvl": -1,
+        "lvlRate": 18.0
+      }
+    ],
+    "SocialSecurity": 4.5,
+    "TaxBrackets": [
+      {
+        "lvl": 35000,
+        "lvlRate": 5.0
+      },
+      { "lvl": 75000, "lvlRate": 15.0 },
+      { "lvl": -1, "lvlRate": 25.0 }
+    ]
+  }
+}
